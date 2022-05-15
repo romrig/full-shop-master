@@ -1,0 +1,36 @@
+
+/*PAGINA NOSOTROS - PAGINA NOSOTROS - PAGINA NOSOTROS*/
+.Articulo {
+    display: flex;
+    border: 1px double orangered;
+    height: auto;
+    width: auto;
+    margin: 30px;
+    box-shadow: 4px 4px 10px 4px black;
+    :hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .tituloArticulo {
+        border: 1px double orangered;
+        background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+        padding: 30px;
+        font-size: 4rem;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Ms Madi', cursive;
+        font-family: 'Updock', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parrafoArticulo {
+        padding: 30px;
+        background-color: rgb(95, 95, 95);
+        font-size: 20px;
+        color: white;
+    }
+}

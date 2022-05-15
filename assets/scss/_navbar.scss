@@ -1,0 +1,24 @@
+/*ESTILOS HEADER Y BARRA DE NAVEGACION*/
+.navbar {
+    background-image: url(../imagenes/fondobody.png.jpg);
+    background-size: contain;
+    a {
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 10px;
+        background-color: orangered;
+        color: white;
+    }
+    a:hover {
+        background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+        background-size: contain;
+    
+        transform: scale(1.1);
+        transition: 250ms;
+    
+    }
+    .navbar-toggler {
+        background-color: orangered;
+    }
+}

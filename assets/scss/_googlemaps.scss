@@ -1,0 +1,25 @@
+/*PAGINA UBICACION - UBICACION - UBICACION - UBICACION*/
+
+.iframe {
+    padding-left: 20px;
+}
+.divDonde {
+    border: 2px double orangered; border-radius: 20px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    height: auto;
+    box-shadow: 4px 4px 10px 4px black;
+}
+.tituloDonde {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Updock', cursive;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parrafoDonde {
+    padding: 40px;
+    border-top: 2px double orangered;
+}

@@ -1,0 +1,11 @@
+@import "variables";
+
+.btn{
+    border: map-get($boton , borde );
+    border-radius: map-get($boton , radio );
+    background-color: map-get($boton , fondo);
+    color: map-get($boton , color );
+    font-weight: map-get($boton , pesoFuente );
+    margin: map-get($boton , margen);
+    padding: map-get($boton , padding);
+}

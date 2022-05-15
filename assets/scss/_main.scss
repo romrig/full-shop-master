@@ -1,0 +1,25 @@
+/*ESTILOS DEL MAIN*/
+@import "mixins";
+main {
+    background-image: url(../imagenes/fondobody.png.jpg);
+    grid-area: main;
+    .div-main1 { @include propiedadesCard; 
+    }
+    .div-main2 { @include propiedadesCard; 
+    }
+    .div-main3 { @include propiedadesCard; 
+    }
+    .div-main4 { @include propiedadesCard; 
+    }
+    .div-main5 { @include propiedadesCard; 
+    }
+    .div-main6 { @include propiedadesCard; 
+    }
+    .div-main1 { @include propiedadesCard; 
+    }
+    .div-main7 { @include propiedadesCard; 
+    }
+    .div-main8 { @include propiedadesCard; 
+    }
+ 
+}

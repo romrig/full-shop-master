@@ -1,0 +1,51 @@
+/*ESTILO DE REDES SOCIALES Y POSICIONAMIENTO DE ICONOS*/
+@import "boton";
+.redes {
+    display: inline;
+    .titulo-insta { margin: 30px auto 30px auto;
+        border: 2px double orangered;
+        background-color: orangered;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Ms Madi', cursive;
+        font-family: 'Updock', cursive;
+        font-size: 30px;
+        font-weight: 800;
+        color: black;
+        padding: 5px auto 5px auto;
+       text-align: center;
+       a {
+        color: black;
+        font-size: 20px;
+    }
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        margin: 10px;
+    }
+    a:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    .iconredes {
+        margin-top: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    .fb {
+        display: inline-flex;
+        background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    }
+    .insta {
+        @extend .fb;
+    }
+    .instayfb {
+        display: flex;
+        justify-content: space-around;
+    }
+}

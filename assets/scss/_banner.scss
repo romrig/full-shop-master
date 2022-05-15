@@ -1,0 +1,21 @@
+/*ESTILOS BANNER GRIS CON TITULO*/
+.banner {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.466);
+    background-attachment: fixed;
+    h3 {
+        font-size: 6rem;
+        font-weight: 800; color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Ms Madi', cursive;
+        font-family: 'Updock', cursive;
+        border-top: 3px  inset orangered;
+        border-bottom: 3px  inset orangered;
+        padding-left: 30px;
+        
+    }
+}

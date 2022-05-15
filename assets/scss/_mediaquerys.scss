@@ -1,0 +1,27 @@
+
+/*CAMBIOS PARA VISTA MOVIL DE 0 A 480 PIXELES*/
+@media (max-width:480px){
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 200px;
+        grid-template-areas: "header"
+        "main"
+        "footer";
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: static;
+    }
+    .navbar ul li {
+        display: block;
+    }
+    .form-container {
+        display: block;
+        margin: 10px;
+    }
+    }
+    
