@@ -19,12 +19,15 @@
 }
 .article {
     display: inline-block;
-    margin: 25px;
+    justify-content: center;
+    margin: 10px;
 }
-.imagen-article {
+.imagen-article{
     height: 230px;
     width: auto;
-    :hover{
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px 1px;
+    &:hover{
         -moz-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
         -webkit-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
         -o-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);

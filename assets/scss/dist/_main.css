@@ -4,14 +4,14 @@ main {
   grid-area: main;
 }
 main .div-main1 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main1 h3 {
   padding: 20px;
@@ -19,7 +19,12 @@ main .div-main1 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main1 p {
   padding: 20px;
@@ -28,23 +33,25 @@ main .div-main1 p {
   background-color: #424242;
   color: white;
 }
-main .div-main1 :hover {
+main .div-main1 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main2 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main2 h3 {
   padding: 20px;
@@ -52,7 +59,12 @@ main .div-main2 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main2 p {
   padding: 20px;
@@ -61,23 +73,25 @@ main .div-main2 p {
   background-color: #424242;
   color: white;
 }
-main .div-main2 :hover {
+main .div-main2 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main3 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main3 h3 {
   padding: 20px;
@@ -85,7 +99,12 @@ main .div-main3 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main3 p {
   padding: 20px;
@@ -94,23 +113,25 @@ main .div-main3 p {
   background-color: #424242;
   color: white;
 }
-main .div-main3 :hover {
+main .div-main3 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main4 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main4 h3 {
   padding: 20px;
@@ -118,7 +139,12 @@ main .div-main4 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main4 p {
   padding: 20px;
@@ -127,23 +153,25 @@ main .div-main4 p {
   background-color: #424242;
   color: white;
 }
-main .div-main4 :hover {
+main .div-main4 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main5 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main5 h3 {
   padding: 20px;
@@ -151,7 +179,12 @@ main .div-main5 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main5 p {
   padding: 20px;
@@ -160,23 +193,25 @@ main .div-main5 p {
   background-color: #424242;
   color: white;
 }
-main .div-main5 :hover {
+main .div-main5 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main6 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main6 h3 {
   padding: 20px;
@@ -184,7 +219,12 @@ main .div-main6 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main6 p {
   padding: 20px;
@@ -193,23 +233,25 @@ main .div-main6 p {
   background-color: #424242;
   color: white;
 }
-main .div-main6 :hover {
+main .div-main6 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main1 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main1 h3 {
   padding: 20px;
@@ -217,7 +259,12 @@ main .div-main1 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main1 p {
   padding: 20px;
@@ -226,23 +273,25 @@ main .div-main1 p {
   background-color: #424242;
   color: white;
 }
-main .div-main1 :hover {
+main .div-main1 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main7 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main7 h3 {
   padding: 20px;
@@ -250,7 +299,12 @@ main .div-main7 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main7 p {
   padding: 20px;
@@ -259,23 +313,25 @@ main .div-main7 p {
   background-color: #424242;
   color: white;
 }
-main .div-main7 :hover {
+main .div-main7 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main8 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main8 h3 {
   padding: 20px;
@@ -283,7 +339,12 @@ main .div-main8 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main8 p {
   padding: 20px;
@@ -292,11 +353,64 @@ main .div-main8 p {
   background-color: #424242;
   color: white;
 }
-main .div-main8 :hover {
+main .div-main8 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
+}
+main .editDiv {
+  height: 200px !important;
+}
+
+main .carrousel {
+  margin: 20px 0px;
+}
+main .carrousel img {
+  max-height: 500px;
+  height: auto;
+  width: auto;
+}
+main .tituloIndex {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: 0ch;
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+}
+main .subtituloIndex {
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  padding: 5px;
+  margin-top: 5px;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Ms Madi", cursive;
+  font-family: "Updock", cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
+main .divIndex {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+main .divIndex th, main .divIndex td {
+  padding: 10px 20px;
+  color: white;
+  border: 1px double orangered;
+  border-radius: 5px;
+}
+main .divIndex th {
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+}
+main .divIndex td {
+  background-color: rgba(128, 128, 128, 0.637);
+}
+main .divIndex tr {
+  box-shadow: 2px 2px 4px 2px black;
 }

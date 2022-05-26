@@ -2,7 +2,7 @@
 .btn {
   border: 1px;
   border-radius: 5px;
-  background-color: orange;
+  background-color: orangered;
   color: white;
   font-weight: 800;
   margin: 10px;
@@ -36,12 +36,13 @@
   margin: 10px;
 }
 .redes a:hover {
+  color: white;
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 1s;
+  transition: 500ms;
 }
 .redes .iconredes {
   margin-top: 5px;

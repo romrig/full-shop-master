@@ -1,19 +1,24 @@
-@mixin propiedadesCard ($ancho:200px , $borde:rgb(0, 0, 0)) {
-    background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+@mixin propiedadesCard ($ancho:40% , $borde:rgb(0, 0, 0)) {
+    background-color: rgba(238, 81, 24, 0.514);
     background-size: cover;
+    height: 200px;
     width: $ancho;
     border: $borde;
     display: inline-block;
-    height: auto;
-    margin: 30px 30px 0% 50px;
-    box-shadow: 4px 4px 10px 4px black; 
+    margin: 30px;
+    box-shadow: 1px 1px 4px 1px gray; 
     h3 {
         padding: 20px;
         font-size: 3rem;
         font-family: 'Bebas Neue', cursive;
         font-family: 'Ms Madi', cursive;
         font-family: 'Updock', cursive;
-        border-bottom: 2px double orange;
+        font-weight: 600;
+        color: rgb(37, 6, 6);
+        margin: 10px;
+        border-bottom: 2px double orangered;
+        border:  0;
+        background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
     }
     p {
         padding: 20px;
@@ -22,12 +27,14 @@
         background-color: rgb(66, 66, 66);
         color: white;
     }
-    :hover {
+    p:hover {
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         -o-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
-        transition: 2s;
+        background-color: orangered;
+        transition: 500ms;
+        border-radius: 5px;
     }
 }

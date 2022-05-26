@@ -21,5 +21,57 @@ main {
     }
     .div-main8 { @include propiedadesCard; 
     }
+    .editDiv {
+        height: 200px !important;
+    }
  
+}
+main {
+    .carrousel {
+        margin: 20px 0px;
+        img {
+            max-height: 500px;
+            height: auto;
+            width: auto;
+        }
+    }
+    .tituloIndex {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        border: 0ch;
+        border-radius: 5px;
+        background-color: orangered;
+        color: white;
+    }
+    .subtituloIndex {
+        background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+        padding: 5px;
+        margin-top: 5px;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Ms Madi', cursive;
+        font-family: 'Updock', cursive;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .divIndex{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        th , td {
+            padding: 10px 20px;
+            color: white;
+            border: 1px double orangered;
+            border-radius: 5px;
+        }
+        th {
+            background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+        }
+        td {
+            background-color: rgba(128, 128, 128, 0.637);
+        }
+        tr {
+            box-shadow: 2px 2px 4px 2px black;
+        }
+    }
 }

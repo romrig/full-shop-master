@@ -1,22 +1,27 @@
 @import "variables";
 @import "boton";
 .form {
-    border: 2px solid orangered;
+    border: 0px;
+    border-radius: 5px;
     padding: 30px;
-    background-image: url(../imagenes/RAYMUNDO.png);
+    background-color: rgba(238, 83, 27, 0.356);
     background-size: contain;
+    max-width: 700px;
     h3 {
-        border: 1px double gray; border-radius: 10px;
-        background-image: url(../imagenes/fondobody.png.jpg);
-        color: black;
+        border: 0x double gray; border-radius: 10px;
+        padding: 5px;
+        background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+        color: rgb(73, 20, 0);
         font-weight: 900;
     }
     label {
+        padding: 5px;
         font-weight: 600;
         font-size: 15;
+        color: rgb(73, 20, 0);
         border-bottom: 1px solid white; border-radius: 5px;
-        background-image: url(../imagenes/fondobody.png.jpg);
-        background-size: contain;
+        background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+        background-size: cover;
         margin: 10px;
     }
 

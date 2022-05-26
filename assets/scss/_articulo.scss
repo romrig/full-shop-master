@@ -1,19 +1,76 @@
 
 /*PAGINA NOSOTROS - PAGINA NOSOTROS - PAGINA NOSOTROS*/
-.Articulo {
+.tituloPrincipal {
     display: flex;
-    border: 1px double orangered;
-    height: auto;
-    width: auto;
-    margin: 30px;
-    box-shadow: 4px 4px 10px 4px black;
-    :hover {
+    justify-content: center;
+    border: 1px solid orangered;
+    background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Updock', cursive;
+    font-weight: 700;
+    color: rgb(37, 6, 6);
+}
+.sectionArticulos { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .Articulo {
+        margin: 20px;
+        padding: 20px;
+        height: 400px;
+        width: 300px;
+        border: 0ch; border-radius: 4px;
+        background-color: rgba(238, 81, 24, 0.514);
+    }
+    .tituloArticulo {
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Ms Madi', cursive;
+        font-family: 'Updock', cursive;
+        font-weight: 700;
+        text-align: center;
+        font-size: 40px;
+        color: rgb(37, 6, 6);
+        padding: 5px;
+        border: 0px; border-radius: 4px;
+        background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+        background-size: contain;
+    }
+    .parrafoArticulo {
+        padding: 10px 4px 0px 4px;
+        border-bottom: 5px orangered;
+    }
+    p:hover {
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         -o-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
-        transition: 2s;
+        background-color: gray;
+        transition: 500ms;
+        border-radius: 5px;
+        padding: 10px;
+
+    }
+
+}
+
+
+
+/*
+.Articulo {
+    display: flex;
+    border: 1px double orangered;
+    margin: 30px;
+    box-shadow: 4px 4px 10px 4px black;
+    :hover {
+        -moz-transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        transform: scale(1.0);
+        transition: 500ms;
     }
     .tituloArticulo {
         border: 1px double orangered;
@@ -34,3 +91,4 @@
         color: white;
     }
 }
+*/
