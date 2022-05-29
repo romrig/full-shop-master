@@ -813,6 +813,7 @@ main .divIndex tr {
 .imagen-article {
   height: 230px;
   width: auto;
+  max-width: 300px;
   border-radius: 4px;
   -webkit-box-shadow: 1px 1px 4px 1px;
           box-shadow: 1px 1px 4px 1px;
