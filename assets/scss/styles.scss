@@ -1,6 +1,5 @@
 body {
-    background-image: url(../imagenes/fondobody.png.jpg);
-    
+    background-image: url(../imagenes/fondobody.png.jpg); 
 }
 
 @import "navbar";
@@ -30,3 +29,13 @@ body {
         background-size: contain;
     }
 }
+
+/*ANIMACION TRANSITION*/
+.animate__animated.animate__rubberBand {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .animate__animated.animate__heartBeat {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }

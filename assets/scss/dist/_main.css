@@ -398,6 +398,7 @@ main .divIndex {
   display: flex;
   justify-content: center;
   padding: 10px;
+  margin: 10px;
 }
 main .divIndex th, main .divIndex td {
   padding: 10px 20px;

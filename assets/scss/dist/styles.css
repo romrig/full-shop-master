@@ -37,6 +37,9 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+footer .logo {
+  margin: 30px;
+}
 footer h3 {
   padding: 15px;
   font-size: 3rem;
@@ -81,14 +84,14 @@ main {
   grid-area: main;
 }
 main .div-main1 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main1 h3 {
   padding: 20px;
@@ -96,7 +99,12 @@ main .div-main1 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main1 p {
   padding: 20px;
@@ -105,23 +113,25 @@ main .div-main1 p {
   background-color: #424242;
   color: white;
 }
-main .div-main1 :hover {
+main .div-main1 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main2 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main2 h3 {
   padding: 20px;
@@ -129,7 +139,12 @@ main .div-main2 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main2 p {
   padding: 20px;
@@ -138,23 +153,25 @@ main .div-main2 p {
   background-color: #424242;
   color: white;
 }
-main .div-main2 :hover {
+main .div-main2 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main3 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main3 h3 {
   padding: 20px;
@@ -162,7 +179,12 @@ main .div-main3 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main3 p {
   padding: 20px;
@@ -171,23 +193,25 @@ main .div-main3 p {
   background-color: #424242;
   color: white;
 }
-main .div-main3 :hover {
+main .div-main3 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main4 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main4 h3 {
   padding: 20px;
@@ -195,7 +219,12 @@ main .div-main4 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main4 p {
   padding: 20px;
@@ -204,23 +233,25 @@ main .div-main4 p {
   background-color: #424242;
   color: white;
 }
-main .div-main4 :hover {
+main .div-main4 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main5 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main5 h3 {
   padding: 20px;
@@ -228,7 +259,12 @@ main .div-main5 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main5 p {
   padding: 20px;
@@ -237,23 +273,25 @@ main .div-main5 p {
   background-color: #424242;
   color: white;
 }
-main .div-main5 :hover {
+main .div-main5 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main6 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main6 h3 {
   padding: 20px;
@@ -261,7 +299,12 @@ main .div-main6 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main6 p {
   padding: 20px;
@@ -270,23 +313,25 @@ main .div-main6 p {
   background-color: #424242;
   color: white;
 }
-main .div-main6 :hover {
+main .div-main6 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main1 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main1 h3 {
   padding: 20px;
@@ -294,7 +339,12 @@ main .div-main1 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main1 p {
   padding: 20px;
@@ -303,23 +353,25 @@ main .div-main1 p {
   background-color: #424242;
   color: white;
 }
-main .div-main1 :hover {
+main .div-main1 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main7 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main7 h3 {
   padding: 20px;
@@ -327,7 +379,12 @@ main .div-main7 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main7 p {
   padding: 20px;
@@ -336,23 +393,25 @@ main .div-main7 p {
   background-color: #424242;
   color: white;
 }
-main .div-main7 :hover {
+main .div-main7 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
 }
 main .div-main8 {
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-color: rgba(238, 81, 24, 0.514);
   background-size: cover;
-  width: 200px;
+  height: 200px;
+  width: 40%;
   border: black;
   display: inline-block;
-  height: auto;
-  margin: 30px 30px 0% 50px;
-  box-shadow: 4px 4px 10px 4px black;
+  margin: 30px;
+  box-shadow: 1px 1px 4px 1px gray;
 }
 main .div-main8 h3 {
   padding: 20px;
@@ -360,7 +419,12 @@ main .div-main8 h3 {
   font-family: "Bebas Neue", cursive;
   font-family: "Ms Madi", cursive;
   font-family: "Updock", cursive;
+  font-weight: 600;
+  color: #250606;
+  margin: 10px;
   border-bottom: 2px double orangered;
+  border: 0;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
 }
 main .div-main8 p {
   padding: 20px;
@@ -369,20 +433,74 @@ main .div-main8 p {
   background-color: #424242;
   color: white;
 }
-main .div-main8 :hover {
+main .div-main8 p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
+  background-color: orangered;
+  transition: 500ms;
+  border-radius: 5px;
+}
+main .editDiv {
+  height: 200px !important;
+}
+
+main .carrousel {
+  margin: 20px 0px;
+}
+main .carrousel img {
+  max-height: 500px;
+  height: auto;
+  width: auto;
+}
+main .tituloIndex {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: 0ch;
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+}
+main .subtituloIndex {
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  padding: 5px;
+  margin-top: 5px;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Ms Madi", cursive;
+  font-family: "Updock", cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
+main .divIndex {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+main .divIndex th, main .divIndex td {
+  padding: 10px 20px;
+  color: white;
+  border: 1px double orangered;
+  border-radius: 5px;
+}
+main .divIndex th {
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+}
+main .divIndex td {
+  background-color: rgba(128, 128, 128, 0.637);
+}
+main .divIndex tr {
+  box-shadow: 2px 2px 4px 2px black;
 }
 
 /*ESTILO DE REDES SOCIALES Y POSICIONAMIENTO DE ICONOS*/
 .btn {
   border: 1px;
   border-radius: 5px;
-  background-color: orange;
+  background-color: orangered;
   color: white;
   font-weight: 800;
   margin: 10px;
@@ -416,12 +534,13 @@ main .div-main8 :hover {
   margin: 10px;
 }
 .redes a:hover {
+  color: white;
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 1s;
+  transition: 500ms;
 }
 .redes .iconredes {
   margin-top: 5px;
@@ -438,45 +557,101 @@ main .div-main8 :hover {
 }
 
 /*PAGINA NOSOTROS - PAGINA NOSOTROS - PAGINA NOSOTROS*/
-.Articulo {
+.tituloPrincipal {
   display: flex;
-  border: 1px double orangered;
-  height: auto;
-  width: auto;
-  margin: 30px;
-  box-shadow: 4px 4px 10px 4px black;
+  justify-content: center;
+  border: 1px solid orangered;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  font-size: 4rem;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Ms Madi", cursive;
+  font-family: "Updock", cursive;
+  font-weight: 700;
+  color: #250606;
 }
-.Articulo :hover {
+
+.sectionArticulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sectionArticulos .Articulo {
+  margin: 20px;
+  padding: 20px;
+  height: 400px;
+  width: 300px;
+  border: 0ch;
+  border-radius: 4px;
+  background-color: rgba(238, 81, 24, 0.514);
+}
+.sectionArticulos .tituloArticulo {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Ms Madi", cursive;
+  font-family: "Updock", cursive;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  color: #250606;
+  padding: 5px;
+  border: 0px;
+  border-radius: 4px;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-size: contain;
+}
+.sectionArticulos .parrafoArticulo {
+  padding: 10px 4px 0px 4px;
+  border-bottom: 5px orangered;
+}
+.sectionArticulos p:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: 2s;
-}
-.Articulo .tituloArticulo {
-  border: 1px double orangered;
-  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
-  padding: 30px;
-  font-size: 4rem;
-  font-family: "Bebas Neue", cursive;
-  font-family: "Ms Madi", cursive;
-  font-family: "Updock", cursive;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Articulo .parrafoArticulo {
-  padding: 30px;
-  background-color: #5f5f5f;
-  font-size: 20px;
-  color: white;
+  background-color: gray;
+  transition: 500ms;
+  border-radius: 5px;
+  padding: 10px;
 }
 
+/*
+.Articulo {
+    display: flex;
+    border: 1px double orangered;
+    margin: 30px;
+    box-shadow: 4px 4px 10px 4px black;
+    :hover {
+        -moz-transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        transform: scale(1.0);
+        transition: 500ms;
+    }
+    .tituloArticulo {
+        border: 1px double orangered;
+        background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+        padding: 30px;
+        font-size: 4rem;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Ms Madi', cursive;
+        font-family: 'Updock', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parrafoArticulo {
+        padding: 30px;
+        background-color: rgb(95, 95, 95);
+        font-size: 20px;
+        color: white;
+    }
+}
+*/
 .btn {
   border: 1px;
   border-radius: 5px;
-  background-color: orange;
+  background-color: orangered;
   color: white;
   font-weight: 800;
   margin: 10px;
@@ -484,25 +659,30 @@ main .div-main8 :hover {
 }
 
 .form {
-  border: 2px solid orangered;
+  border: 0px;
+  border-radius: 5px;
   padding: 30px;
-  background-image: url(../imagenes/RAYMUNDO.png);
+  background-color: rgba(238, 83, 27, 0.356);
   background-size: contain;
+  max-width: 700px;
 }
 .form h3 {
-  border: 1px double gray;
+  border: 0x double gray;
   border-radius: 10px;
-  background-image: url(../imagenes/fondobody.png.jpg);
-  color: black;
+  padding: 5px;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  color: #491400;
   font-weight: 900;
 }
 .form label {
+  padding: 5px;
   font-weight: 600;
   font-size: 15;
+  color: #491400;
   border-bottom: 1px solid white;
   border-radius: 5px;
-  background-image: url(../imagenes/fondobody.png.jpg);
-  background-size: contain;
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-size: cover;
   margin: 10px;
 }
 
@@ -529,14 +709,17 @@ main .div-main8 :hover {
 
 .article {
   display: inline-block;
-  margin: 25px;
+  justify-content: center;
+  margin: 10px;
 }
 
 .imagen-article {
   height: 230px;
   width: auto;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 1px;
 }
-.imagen-article :hover {
+.imagen-article:hover {
   -moz-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
   -webkit-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
   -o-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
@@ -554,7 +737,7 @@ main .div-main8 :hover {
 .divDonde {
   border: 2px double orangered;
   border-radius: 20px;
-  background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+  background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
   height: auto;
   box-shadow: 4px 4px 10px 4px black;
 }
@@ -576,7 +759,7 @@ main .div-main8 :hover {
 }
 
 /*CAMBIOS PARA VISTA MOVIL DE 0 A 480 PIXELES*/
-@media (max-width: 480px) {
+@media (max-width: 559px) {
   .container {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 200px;
@@ -599,11 +782,15 @@ main .div-main8 :hover {
     display: block;
     margin: 10px;
   }
+
+  .text-center div {
+    width: 80% !important;
+  }
 }
 .btn {
   border: 1px;
   border-radius: 5px;
-  background-color: orange;
+  background-color: orangered;
   color: white;
   font-weight: 800;
   margin: 10px;
@@ -613,7 +800,7 @@ main .div-main8 :hover {
 .btn {
   border: 1px;
   border-radius: 5px;
-  background-color: orange;
+  background-color: orangered;
   color: white;
   font-weight: 800;
   margin: 10px;
@@ -623,4 +810,15 @@ main .div-main8 :hover {
   background-color: orangered;
   border-radius: 40%;
   background-size: contain;
+}
+
+/*ANIMACION TRANSITION*/
+.animate__animated.animate__rubberBand {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.animate__animated.animate__heartBeat {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }

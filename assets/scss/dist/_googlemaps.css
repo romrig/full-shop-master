@@ -9,6 +9,7 @@
   background-image: url(../imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
   height: auto;
   box-shadow: 4px 4px 10px 4px black;
+  margin: 10px;
 }
 
 .tituloDonde {
